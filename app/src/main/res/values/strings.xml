@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebGymGlish</string>
+    <string name="erreur_saisie">Erreur de saise</string>
+    <string name="reseau_non_dispo">Réseau internet non disponible</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="copyright_2019_version_0_1">Copyright 2019 Version 0.1</string>
+    <string name="votre_mot_de_passe">Votre mot de passe</string>
+    <string name="votre_login">Votre login</string>
+    <string name="probleme_url">Problème URL</string>
+</resources>
