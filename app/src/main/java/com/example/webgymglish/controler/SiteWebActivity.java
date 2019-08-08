@@ -17,7 +17,7 @@ import java.util.ArrayList;
 /**
  * SiteWebActivity class
  *
- * Created by Jean-Christophe THEULIER on 02/07/2019.
+ * Created by Jean-Christophe  on 02/07/2019.
  */
 
 public class SiteWebActivity extends AppCompatActivity implements FieldAdapter.OnFieldsListener {
@@ -73,8 +73,6 @@ public class SiteWebActivity extends AppCompatActivity implements FieldAdapter.O
 
         if (new verifInternet().isConnectedNetwork (getApplicationContext()) ) {
             Intent intent = new Intent(SiteWebActivity.this, PageWebActivity.class);
-            //                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
-            //                       Intent.FLAG_ACTIVITY_CLEAR_TASK);
             intent.putExtra("URL_WEB", fieldSiteWebs.getUrl_long());
 
             startActivity(intent);

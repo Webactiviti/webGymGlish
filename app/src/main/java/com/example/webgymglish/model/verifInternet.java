@@ -6,7 +6,7 @@ import android.net.ConnectivityManager;
 /**
  * verifInternet class
  *
- * Created by Jean-Christophe THEULIER on 02/07/2019.
+ * Created by Jean-Christophe  on 02/07/2019.
  */
 
 
